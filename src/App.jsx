@@ -2,9 +2,9 @@
 import './index.css';
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Navbar from "./components/Navbar";
-import ProductCard from "./components/ProductCard";
-import CartModal from "./components/CartModal";
+import Navbar from "./Components/Navbar";
+import ProductCard from "./Components/ProductCard";
+import CartModal from "./Components/CartModal";
 
 const App = () => {
   const [products, setProducts] = useState([]);
